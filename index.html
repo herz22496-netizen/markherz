@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="fr" class="scroll-smooth">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mark Herz | Guitariste Classique & Professeur</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
+  <style>
+    body { font-family:'Inter',sans-serif; background:#f7f3ed; color:#333a45; }
+    h1,h2,h3 { font-family:'Playfair Display',serif; }
+    .section-title { border-bottom:2px solid #c09a58; padding-bottom:.5rem; margin-bottom:2rem; font-size:2rem; font-weight:700; }
+    .btn-primary { background:#333a45; color:#fff; font-weight:bold; padding:.75rem 1.5rem; border-radius:.5rem; transition:.3s; }
+    .btn-primary:hover { background:#4a5568; }
+  </style>
+</head>
+<body class="antialiased">
+
+<header class="bg-white/90 backdrop-blur sticky top-0 z-50 shadow-sm">
+  <nav class="container mx-auto px-6 py-4 flex justify-between items-center">
+    <a href="#home" class="text-2xl font-bold text-slate-800 font-serif">Mark Herz</a>
+    <div class="hidden md:flex space-x-8">
+      <a href="#biographie" class="hover:text-slate-900">Biographie</a>
+      <a href="#enseignement" class="hover:text-slate-900">Cours</a>
+      <a href="#concerts" class="hover:text-slate-900">Concerts</a>
+      <a href="#media" class="hover:text-slate-900">Média</a>
+      <a href="#contact" class="hover:text-slate-900">Contact</a>
+    </div>
+  </nav>
+</header>
+
+<main class="container mx-auto px-6 py-12 md:py-20">
+
+  <!-- Hero -->
+  <section id="home" class="text-center min-h-[70vh] flex flex-col justify-center items-center">
+    <img src="/images/mark-headshot.jpg" alt="Portrait de Mark Herz" class="w-40 h-40 rounded-full mb-6 shadow-lg border-4 border-white" loading="eager">
+    <h1 class="text-5xl md:text-6xl font-bold mb-2">Mark Herz</h1>
+    <p class="text-xl text-slate-700">Guitariste classique & professeur de musique</p>
+    <a href="#contact" class="mt-6 btn-primary">Réserver un cours</a>
+  </section>
+
+  <!-- Bio -->
+  <section id="biographie" class="py-16 md:py-24">
+    <h2 class="section-title">Biographie</h2>
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
+      <div class="space-y-4 text-lg text-slate-700 leading-relaxed">
+        <p>Basé à Montréal, Mark Herz est diplômé en interprétation guitare du <strong>Conservatoire de musique de Montréal</strong>. Son jeu allie précision technique et expressivité musicale.</p>
+        <p>Il partage aujourd’hui sa passion en tant qu’interprète et enseignant, offrant des cours personnalisés et des prestations pour événements privés et publics.</p>
+      </div>
+      <img src="/images/mark-playing.jpg" alt="Mark Herz jouant de la guitare" class="rounded-lg shadow-md" loading="lazy">
+    </div>
+  </section>
+
+  <!-- Teaching -->
+  <section id="enseignement" class="py-16 md:py-24 text-center">
+    <h2 class="section-title">Cours de guitare</h2>
+    <p class="max-w-2xl mx-auto text-lg text-slate-700">Cours privés pour tous les niveaux. Développez technique, musicalité et confiance, avec une approche claire et motivante.</p>
+    <a href="#contact" class="mt-6 inline-block btn-primary">Demander un cours</a>
+  </section>
+
+  <!-- Concerts -->
+  <section id="concerts" class="py-16 md:py-24">
+    <h2 class="section-title">Concerts & Événements</h2>
+    <div class="space-y-6">
+      <div>
+        <h3 class="text-xl font-bold">Récital de maîtrise</h3>
+        <p class="text-slate-600 italic">Conservatoire de Montréal, 2023</p>
+      </div>
+      <div>
+        <h3 class="text-xl font-bold">Les Chambristes</h3>
+        <p class="text-slate-600 italic">Mai 2023</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Media -->
+  <section id="media" class="py-16 md:py-24">
+    <h2 class="section-title">Média</h2>
+    <div class="grid grid-cols-2 md:grid-cols-4 gap-4">
+      <img src="/images/concert1.jpg" alt="Concert" class="rounded-lg shadow-md" loading="lazy">
+      <img src="/images/concert2.jpg" alt="Concert" class="rounded-lg shadow-md" loading="lazy">
+      <img src="/images/teaching.jpg" alt="Cours de guitare" class="rounded-lg shadow-md" loading="lazy">
+      <img src="/images/recital.jpg" alt="Récital" class="rounded-lg shadow-md" loading="lazy">
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section id="contact" class="py-16 md:py-24 text-center">
+    <h2 class="section-title">Contact</h2>
+    <p class="max-w-xl mx-auto text-lg mb-6">Pour réserver un cours ou engager Mark pour un événement :</p>
+    <div class="flex flex-col md:flex-row justify-center items-center gap-6">
+      <a href="mailto:Mark.Herz@mail.mcgill.ca" class="text-lg text-slate-800 hover:text-yellow-700">Mark.Herz@mail.mcgill.ca</a>
+      <a href="tel:5143717662" class="text-lg text-slate-800 hover:text-yellow-700">514-371-7662</a>
+    </div>
+  </section>
+
+</main>
+
+<footer class="bg-slate-100 border-t border-slate-200">
+  <div class="container mx-auto px-6 py-6 text-center text-slate-500">
+    <p>&copy; 2025 Mark Herz. Tous droits réservés.</p>
+  </div>
+</footer>
+
+</body>
+</html>
